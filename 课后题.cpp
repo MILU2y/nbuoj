@@ -1,4 +1,8 @@
+/*第五章数组*/
+/*选择题：CDBBB BBCCD CCBCB BBCDD*/
+/*在线编程题*/
 
+/*5.2/1075*/
 #include<stdio.h>
 #include<math.h>
 int main()
@@ -24,8 +28,7 @@ int main()
 	return 0;
 }
 
-/*数组*/
-
+/*5.3/1157*/
 #include <stdio.h>
 int main()
 {
@@ -45,7 +48,7 @@ int main()
 	return 0;
 }
 
-/*1172*/
+/*5.4/1172*/
 #include<stdio.h>
 #define N 1000
 int main()
@@ -64,7 +67,7 @@ int main()
 	return 0;
 }
 
-/**/
+/*5.5/1122*/
 #include <stdio.h>
 #include <stdbool.h>
 #define N 100
@@ -94,7 +97,7 @@ int main() {
     return 0;
 }
 
-/*1167*/
+/*5.6/1167*/
 #include<stdio.h>
 int main()
 {
@@ -112,7 +115,7 @@ int main()
 	return 0;
 }
 
-/*1298*/
+/*5.8/1298*/
 #include <stdio.h>
 int main()
 {
@@ -131,7 +134,7 @@ int main()
 	return 0;
 }
 
-/**/
+/*5.12/1056*/
 #include <stdio.h>
 #define N 1000
 int main()
@@ -148,7 +151,7 @@ int main()
 	return 0;
 }
 
-/**/
+/*5.13/1054*/
 #include <stdio.h>
 #define N 1000
 int main()
@@ -165,7 +168,7 @@ int main()
 	return 0;
 }
 
-/*1139*/
+/*5.14/1139*/
 #include<stdio.h>
 int main()
 {
@@ -185,7 +188,7 @@ int main()
 	return 0;
 }
 
-/*1144/1145*/
+/*5.15/5.16/1144/1145*/
 #include <stdio.h>
 #include <string.h>
 #define N 100
@@ -206,7 +209,7 @@ int main()
     return 0;
 }
 
-/*1148*/
+/*5.17/1148*/
 #include <stdio.h>
 #include <string.h>
 #define N 1000
@@ -229,7 +232,7 @@ int main() {
     return 0;
 }
 
-/*1159*/
+/*5.18/1159*/
 #include<stdio.h>
 #define N 10000
 int main()
@@ -256,7 +259,7 @@ int main()
 	return 0;
 }
 
-/*1190*/
+/*5.19/1190*/
 #include <stdio.h>
 #define N 100
 int main()
@@ -282,7 +285,7 @@ int main()
     return 0;
 }
 
-/*1201*/
+/*5.20/1201*/
 #include <stdio.h>
 #include <string.h>
 #define N 100
@@ -303,28 +306,7 @@ int main() {
     return 0;
 }
 
-/*2628*/
-#include<stdio.h>
-char trans(char n)
-{
-	char t;
-	if('A'<=n&&n<='Z')
-	t=n+32;
-	else t=n;
-    return t;
-}
-
-/*2629*/
-#include<stdio.h>
-int fact(int n)
-{
-	int sum;
-	if(n==0||n==1) sum=1;
-	else sum=n*fact(n-1);
-	return sum;
-}
-
-/*1199*/
+/*5.21/1199*/
 #include<stdio.h>
 #define N 1000
 int main()
@@ -349,7 +331,7 @@ int main()
 	return 0;
 }
 
-/*1315*/
+/*5.22/1315*/
 #include<stdio.h>
 #define N 1001
 int main()
@@ -368,6 +350,35 @@ int main()
 	printf("%d\n",num);
 	return 0;
 }
+
+
+/*第五章数组*/
+/*选择题：BBACB DBACD CAB*/
+/*在线编程题*/
+
+/*6.1/2628*/
+#include<stdio.h>
+char trans(char n)
+{
+	char t;
+	if('A'<=n&&n<='Z')
+	t=n+32;
+	else t=n;
+    return t;
+}
+
+/*6.2/2629*/
+#include<stdio.h>
+int fact(int n)
+{
+	int sum;
+	if(n==0||n==1) sum=1;
+	else sum=n*fact(n-1);
+	return sum;
+}
+
+
+
 
 
 
